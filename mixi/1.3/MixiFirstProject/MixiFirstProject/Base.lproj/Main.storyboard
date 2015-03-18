@@ -81,6 +81,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hvQ-jn-oYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="sq7-is-Bth" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="323" y="1068"/>
         </scene>
@@ -111,11 +112,14 @@
                                     <action selector="buttonTapped:" destination="Z2R-as-EYo" eventType="touchUpInside" id="b4T-XI-IDP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5T-VG-jFZ">
-                                <rect key="frame" x="35" y="200" width="105" height="30"/>
-                                <state key="normal" title="ばっくしまーす">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwV-Wn-hqw">
+                                <rect key="frame" x="41" y="169" width="100" height="30"/>
+                                <state key="normal" title="Unwind Segue">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="sq7-is-Bth" kind="unwind" unwindAction="unwindToSampleViewController:" id="HuO-qi-5PP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

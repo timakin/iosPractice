@@ -39,6 +39,11 @@
 - (void)secondViewControllerButtonTapped {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+- (IBAction)unwindToSampleViewController:(UIStoryboardSegue *)segue {
+    
+}
+
 /*
 #pragma mark - Navigation
 
