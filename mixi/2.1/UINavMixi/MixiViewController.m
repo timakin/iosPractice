@@ -24,6 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pushButtonTapped:(id)sender {
+    NSLog(@"Yo");
+}
+
 /*
 #pragma mark - Navigation
 
