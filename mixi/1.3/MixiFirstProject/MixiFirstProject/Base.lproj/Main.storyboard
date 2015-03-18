@@ -87,7 +87,7 @@
         <!--My Second View Controller-->
         <scene sceneID="mjT-yQ-CPu">
             <objects>
-                <viewController id="Z2R-as-EYo" customClass="MySecondViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MySecondViewController" id="Z2R-as-EYo" customClass="MySecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="23e-6i-7R1"/>
                         <viewControllerLayoutGuide type="bottom" id="Fes-4A-Gn8"/>

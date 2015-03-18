@@ -7,6 +7,7 @@
 //
 
 #import "MixiSampleViewController.h"
+#import "MySecondViewController.h"
 
 @interface MixiSampleViewController ()
 
@@ -30,7 +31,8 @@
 }
 
 - (IBAction)secondButtonTapped:(id)sender {
-    [self performSegueWithIdentifier:@"presentMySecondViewController" sender:self];
+    MySecondViewController *mySecond = [self.storyboard instantiateViewControllerWithIdentifier:@"MySecondViewController"];
+    [self presentViewController:mySecond animated:YES completion:nil];
 }
 
 /*
