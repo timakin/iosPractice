@@ -1,36 +1,27 @@
 //
-//  MixiSampleViewController.m
+//  MySecondViewController.m
 //  MixiFirstProject
 //
 //  Created by 高橋 誠二 on 2015/03/18.
 //  Copyright (c) 2015年 高橋 誠二. All rights reserved.
 //
 
-#import "MixiSampleViewController.h"
+#import "MySecondViewController.h"
 
-@interface MixiSampleViewController ()
+@interface MySecondViewController ()
 
 @end
 
-@implementation MixiSampleViewController
+@implementation MySecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.label.text = @"test";
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)buttonTapped:(id)sender {
-    self.label.text = @"Tapped!!";
-}
-
-- (IBAction)secondButtonTapped:(id)sender {
-    [self performSegueWithIdentifier:@"presentMySecondViewController" sender:self];
 }
 
 /*

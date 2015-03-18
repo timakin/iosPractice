@@ -16,6 +16,7 @@
 		29E8CD4A1AB97A470072B164 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E8CD481AB97A470072B164 /* LaunchScreen.xib */; };
 		29E8CD561AB97A470072B164 /* MixiFirstProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E8CD551AB97A470072B164 /* MixiFirstProjectTests.m */; };
 		29E8CD661AB97FAE0072B164 /* MixiSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E8CD651AB97FAE0072B164 /* MixiSampleViewController.m */; };
+		29E8CD691AB9858C0072B164 /* MySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E8CD681AB9858C0072B164 /* MySecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		29E8CD551AB97A470072B164 /* MixiFirstProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiFirstProjectTests.m; sourceTree = "<group>"; };
 		29E8CD641AB97FAE0072B164 /* MixiSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixiSampleViewController.h; sourceTree = "<group>"; };
 		29E8CD651AB97FAE0072B164 /* MixiSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixiSampleViewController.m; sourceTree = "<group>"; };
+		29E8CD671AB9858C0072B164 /* MySecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySecondViewController.h; sourceTree = "<group>"; };
+		29E8CD681AB9858C0072B164 /* MySecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				29E8CD401AB97A470072B164 /* ViewController.h */,
 				29E8CD411AB97A470072B164 /* ViewController.m */,
 				29E8CD431AB97A470072B164 /* Main.storyboard */,
+				29E8CD671AB9858C0072B164 /* MySecondViewController.h */,
+				29E8CD681AB9858C0072B164 /* MySecondViewController.m */,
 				29E8CD461AB97A470072B164 /* Images.xcassets */,
 				29E8CD481AB97A470072B164 /* LaunchScreen.xib */,
 				29E8CD3D1AB97A470072B164 /* MixiFirstProject.xcdatamodeld */,
@@ -229,6 +234,7 @@
 			files = (
 				29E8CD3C1AB97A470072B164 /* AppDelegate.m in Sources */,
 				29E8CD3F1AB97A470072B164 /* MixiFirstProject.xcdatamodeld in Sources */,
+				29E8CD691AB9858C0072B164 /* MySecondViewController.m in Sources */,
 				29E8CD421AB97A470072B164 /* ViewController.m in Sources */,
 				29E8CD661AB97FAE0072B164 /* MixiSampleViewController.m in Sources */,
 				29E8CD391AB97A470072B164 /* main.m in Sources */,

@@ -46,6 +46,7 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonTapped:" destination="NDN-JU-mF2" eventType="touchUpInside" id="nvO-3W-X0E"/>
+                                    <segue destination="Z2R-as-EYo" kind="presentation" identifier="presentMySecondViewController" id="lVD-na-rNO"/>
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qUp-wk-bgj">
@@ -57,6 +58,15 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="piq-nG-CNL">
                                 <rect key="frame" x="144" y="172" width="51" height="31"/>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DoA-cM-TC2">
+                                <rect key="frame" x="27" y="216" width="99" height="30"/>
+                                <state key="normal" title="SecondButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="secondButtonTapped:" destination="NDN-JU-mF2" eventType="touchUpInside" id="NtT-x9-aFs"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuo-sX-dAE">
                                 <rect key="frame" x="33" y="92" width="91" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -73,6 +83,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hvQ-jn-oYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="323" y="1068"/>
+        </scene>
+        <!--My Second View Controller-->
+        <scene sceneID="mjT-yQ-CPu">
+            <objects>
+                <viewController id="Z2R-as-EYo" customClass="MySecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="23e-6i-7R1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fes-4A-Gn8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Grt-nX-DAE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MySecond! :D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMj-6d-GOn">
+                                <rect key="frame" x="41" y="44" width="136" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nHW-j5-Xc3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="963" y="1068"/>
         </scene>
     </scenes>
 </document>
