@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"pop"
+                                                                    style:UIBarButtonItemStylePlain
+                                                                   target:self
+                                                                   action:@selector(pressPopButton)];
+    self.navigationItem.rightBarButtonItem = rightButton;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,6 +30,13 @@
 }
 
 - (IBAction)pushButtonTapped:(id)sender {
+    MixiViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MixiViewController"];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (void)pressPopButton
+{
+    [self.navigationController popViewControllerAnimated:YES];
     NSLog(@"Yo");
 }
 

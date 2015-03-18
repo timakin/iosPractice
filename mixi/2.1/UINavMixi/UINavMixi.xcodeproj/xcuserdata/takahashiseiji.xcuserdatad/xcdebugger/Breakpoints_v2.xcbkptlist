@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MixiViewController.m"
-            timestampString = "448377252.101167"
+            timestampString = "448379061.72898"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "-pushButtonTapped:"
             landmarkType = "5">
          </BreakpointContent>
