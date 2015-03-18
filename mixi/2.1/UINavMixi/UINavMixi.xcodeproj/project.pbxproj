@@ -14,6 +14,7 @@
 		299E1F921AB9A60F0050B2CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299E1F911AB9A60F0050B2CC /* Images.xcassets */; };
 		299E1F951AB9A60F0050B2CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 299E1F931AB9A60F0050B2CC /* LaunchScreen.xib */; };
 		299E1FA11AB9A60F0050B2CC /* UINavMixiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 299E1FA01AB9A60F0050B2CC /* UINavMixiTests.m */; };
+		299E1FAC1AB9B0EA0050B2CC /* MixiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 299E1FAB1AB9B0EA0050B2CC /* MixiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		299E1F9A1AB9A60F0050B2CC /* UINavMixiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavMixiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		299E1F9F1AB9A60F0050B2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		299E1FA01AB9A60F0050B2CC /* UINavMixiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavMixiTests.m; sourceTree = "<group>"; };
+		299E1FAA1AB9B0EA0050B2CC /* MixiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MixiViewController.h; path = ../MixiViewController.h; sourceTree = "<group>"; };
+		299E1FAB1AB9B0EA0050B2CC /* MixiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MixiViewController.m; path = ../MixiViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				299E1F8B1AB9A60F0050B2CC /* ViewController.h */,
 				299E1F8C1AB9A60F0050B2CC /* ViewController.m */,
 				299E1F8E1AB9A60F0050B2CC /* Main.storyboard */,
+				299E1FAA1AB9B0EA0050B2CC /* MixiViewController.h */,
+				299E1FAB1AB9B0EA0050B2CC /* MixiViewController.m */,
 				299E1F911AB9A60F0050B2CC /* Images.xcassets */,
 				299E1F931AB9A60F0050B2CC /* LaunchScreen.xib */,
 				299E1F841AB9A60F0050B2CC /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				299E1F8D1AB9A60F0050B2CC /* ViewController.m in Sources */,
+				299E1FAC1AB9B0EA0050B2CC /* MixiViewController.m in Sources */,
 				299E1F8A1AB9A60F0050B2CC /* AppDelegate.m in Sources */,
 				299E1F871AB9A60F0050B2CC /* main.m in Sources */,
 			);
