@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol MySecondViewControllerDelegate <NSObject>
+- (void)secondViewControllerButtonTapped;
+@end
+
+
 @interface MySecondViewController : UIViewController
+@property (nonatomic, weak) id<MySecondViewControllerDelegate> delegate;
 
 @end
+

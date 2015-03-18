@@ -31,10 +31,14 @@
 }
 
 - (IBAction)secondButtonTapped:(id)sender {
-    MySecondViewController *mySecond = [self.storyboard instantiateViewControllerWithIdentifier:@"MySecondViewController"];
-    [self presentViewController:mySecond animated:YES completion:nil];
+    MySecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MySecondViewController"];
+    secondViewController.delegate = self;
+    [self presentViewController:secondViewController animated:YES completion:nil];
 }
 
+- (void)secondViewControllerButtonTapped {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 /*
 #pragma mark - Navigation
 
