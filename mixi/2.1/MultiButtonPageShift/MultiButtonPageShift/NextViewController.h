@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface NextViewController : UIViewController
-
+@property (nonatomic, strong) NSString *messageFromPrevious;
 @end

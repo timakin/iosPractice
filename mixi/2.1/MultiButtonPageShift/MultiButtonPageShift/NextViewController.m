@@ -9,7 +9,7 @@
 #import "NextViewController.h"
 
 @interface NextViewController ()
-
+@property (strong, nonatomic) IBOutlet UILabel *pageName;
 @end
 
 @implementation NextViewController
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.pageName.text = self.messageFromPrevious;
 }
 
 - (void)didReceiveMemoryWarning {
